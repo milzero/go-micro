@@ -278,7 +278,7 @@ var (
 			Name:    "service_namespace",
 			EnvVars: []string{"MICRO_NAMESPACE"},
 			Usage:   "Namespace the service is operating in",
-			Value:   "micro",
+			Value:   "go.micro",
 		},
 		&cli.StringFlag{
 			Name:    "auth_public_key",
